@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="120dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Send Text"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="20dp"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/WriteText"-->
+<!--        android:textColor="#ffFF6000"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="WirteText"-->
+<!--        android:privateImeOptions="defaultImputmode=korean"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="10dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnsend"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="send" />-->
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receive Text"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="글자를 받는 곳입니다."
+        android:textColor="#ffFF6000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/ReceiveText"
+        android:privateImeOptions="defaultImputmode=korean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnsReceive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Receive" />
+</LinearLayout>
