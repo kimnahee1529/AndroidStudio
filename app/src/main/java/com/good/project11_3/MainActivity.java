@@ -44,24 +44,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-//        btnReceive.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                myRef.addValueEventListener(new ValueEventListener() {
-//                    @Override
-//                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                        String m = snapshot.getValue(String.class);
-//                        //TextView에 텍스트 가 입력됨
-//                        ReceiveText.setText(m);
-//                    }
-//
-//                    @Override
-//                    public void onCancelled(@NonNull DatabaseError error) {
-//
-//                    }
-//                });
-//            }
-//        });
-
     }
 }
